@@ -113,7 +113,7 @@ $github->authenticate();
 
 $userProfile = $github->getUserProfile();
 
-echo  'Hi '.ese_html($userProfile)->displayName;
+echo  'Hi '. ese_html($userProfile)->displayName;
 
 /**
  * Bonus: Access GitHub API
